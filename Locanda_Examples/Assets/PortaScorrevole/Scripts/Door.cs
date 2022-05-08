@@ -8,7 +8,7 @@ public class Door : MonoBehaviour {
 	public bool isOpening;
    public float shiftFromHisPos;
    public float initPosX;
-   [FormerlySerializedAs("isFinish")] public bool doingAction;
+   public bool doingAction;
    
    private void Start() {
 	   initPosX = transform.position.x;
